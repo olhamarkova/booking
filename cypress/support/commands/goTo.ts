@@ -4,7 +4,7 @@ declare global {
   namespace Cypress {
     interface Chainable {
       /**
-       * Visit a page of the site.
+       * Visit a page of the site (without '/').
        * @param url - url of the page
        * @example
        * cy.goTo("/")

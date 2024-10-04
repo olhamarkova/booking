@@ -4,9 +4,7 @@ declare global {
   namespace Cypress {
     interface Chainable {
       /**
-       * Set English as a language for the site.
-       * @example
-       * cy.goTo("/")
+       * Set English as a language for the site through cookies.
        */
       setEngLanguage(): Chainable<any>;
     }

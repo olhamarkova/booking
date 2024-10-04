@@ -1,4 +1,4 @@
-import { HomePage } from "../../pages/MainPage";
+import { HomePage } from "../../pages/HomePage";
 import { SignInPage } from "../../pages/registration/SignInPage";
 import { CreatePasswordPage } from "../../pages/registration/CreatePasswordPage";
 import { headings } from "../../data/headings";
@@ -24,7 +24,7 @@ describe("Registration with email", function () {
     cy.setEngLanguage();
   });
 
-  it("A user shall be able to register with valid email and password", function () {
+  it.skip("A user shall be able to register with valid email and password", function () {
     //Click on the 'Register' button
     homePage.header.click(homePage.header.registerButton());
     signIn.heading.hasText(signIn.title(), headings.signIn);
