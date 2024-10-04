@@ -1,13 +1,20 @@
 ## Where are manual test cases?
 
-You'll find them in the "cypress/documentation" folder. If it isn't opened (GitHub sometimes has this issue) just download the PDF file.
+You'll find them in the "cypress/documentation" folder.
+
+If the content isn't displayed (GitHub sometimes has this issue) just download the PDF file.
 
 ## How is this project organized?
 
 The e2e tests are in the "cypress/e2e" folder.
+
 I implemented PageObject Model pattern, and you'll find PageObject Models in the "cypress/pages" folder.
+
 In the "cypress/elements" folder there are UI elements for pages.
+
 Custom commands are in the "cypress/support/commands" folder.
+
+In the "cypress/videos" folder there is the video of successful test run.
 
 ## How do I run tests?
 

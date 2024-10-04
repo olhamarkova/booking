@@ -24,7 +24,7 @@ describe("Registration with email", function () {
     cy.setEngLanguage();
   });
 
-  it.skip("A user shall be able to register with valid email and password", function () {
+  it("A user shall be able to register with valid email and password", function () {
     //Click on the 'Register' button
     homePage.header.click(homePage.header.registerButton());
     signIn.heading.hasText(signIn.title(), headings.signIn);
