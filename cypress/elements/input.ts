@@ -30,10 +30,6 @@ export class InputField extends UiElement {
     return element.should("be.visible").clear();
   }
 
-  clearFocused() {
-    return cy.focused().clear();
-  }
-
   hasValue(element: Cypress.Chainable<JQuery<HTMLElement>>, value: string) {
     return element.should("have.value", value);
   }

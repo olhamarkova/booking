@@ -82,7 +82,7 @@ describe("Registration with email", function () {
     disabledAccount.button.isVisible(disabledAccount.contactSupportButton());
   });
 
-  it(`A user shall see the error if uses invalid email for registration`, function () {
+  it("A user shall see the error if uses invalid email for registration", function () {
     //Click on the 'Register' button
     homePage.header.click(homePage.header.registerButton());
     signIn.heading.hasText(signIn.title(), headings.signIn);
