@@ -18,7 +18,7 @@ In the "cypress/videos" folder there is the video of successful test run.
 
 ## How do I run tests?
 
-# Method 1
+### Method 1
 
 Make sure NodeJS is installed.
 
@@ -47,7 +47,7 @@ or
 
 `npx cypress open`
 
-# Method 2
+### Method 2
 
 Pull the docker image:
 
