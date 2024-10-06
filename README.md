@@ -18,6 +18,8 @@ In the "cypress/videos" folder there is the video of successful test run.
 
 ## How do I run tests?
 
+# Method 1
+
 Make sure NodeJS is installed.
 
 If you haven’t installed NodeJS yet, please install it from the [NodeJS site](https://nodejs.org/en).
@@ -44,3 +46,11 @@ To open Cypress (UI mode):
 or
 
 `npx cypress open`
+
+# Method 2
+
+Pull the docker image:
+
+`docker pull olhamarkova/booking-cypress-tests`
+
+Then just run this image.
